@@ -10,9 +10,8 @@
 // import MyComponent from "./MyComponent";
 // import Counter from './counter'
 // import ProfilePicture from "./ProfilePicture";
-
-
-import MyComponent from "./MyComponent";
+// import MyComponentCar from "./MyComponent-car";
+import MyComponentCars from "./MyComponent-cars";
 
 function App() {
   // const fruits = [
@@ -31,7 +30,7 @@ function App() {
   // ]
   return(
     <>
-        <MyComponent/>
+        <MyComponentCars/>
     </>
   );
 }
