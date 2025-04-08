@@ -13,7 +13,9 @@
 // import MyComponentCar from "./MyComponent-car";
 // import MyComponentCars from "./MyComponent-cars";
 // import MyComponentCount from "./MyComponent-useEffect";
-import DigitalClock from "./DigitalClock";
+// import ComponentA from "./componantA";
+import MyComponentUseRef from "./MyComponent-Use-refernece";
+// import DigitalClock from "./DigitalClock";
 // import MyComponentResize from "./MyComponent-width-height";
 
 function App() {
@@ -33,7 +35,7 @@ function App() {
   // ]
   return(
     <>
-        <DigitalClock/>
+        <MyComponentUseRef/>
     </>
   );
 }
