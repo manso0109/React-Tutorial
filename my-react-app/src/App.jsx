@@ -10,9 +10,9 @@
 // import MyComponent from "./MyComponent";
 // import Counter from './counter'
 // import ProfilePicture from "./ProfilePicture";
-import Card from "./Card";
-import ColorPicker from "./ColorPicker";
-import Footer from "./Footer";
+
+
+import MyComponent from "./MyComponent";
 
 function App() {
   // const fruits = [
@@ -31,9 +31,7 @@ function App() {
   // ]
   return(
     <>
-        <ColorPicker/>
-        <Footer/>
-        <Card/>
+        <MyComponent/>
     </>
   );
 }
