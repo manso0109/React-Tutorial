@@ -12,7 +12,9 @@
 // import ProfilePicture from "./ProfilePicture";
 // import MyComponentCar from "./MyComponent-car";
 // import MyComponentCars from "./MyComponent-cars";
-import ToDoList from "./ToDoList";
+// import MyComponentCount from "./MyComponent-useEffect";
+import DigitalClock from "./DigitalClock";
+// import MyComponentResize from "./MyComponent-width-height";
 
 function App() {
   // const fruits = [
@@ -31,7 +33,7 @@ function App() {
   // ]
   return(
     <>
-        <ToDoList/>
+        <DigitalClock/>
     </>
   );
 }
